@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1815c6a43b24c3c948c1d1c4287f1a, type: 3}
+  m_Name: GameDB
+  m_EditorClassIdentifier: 
+  RefBlockGroup:
+  - BlockGroupID: 1
+    BlockIDList: 1, 2, 3
+    Prob: 100
+  - BlockGroupID: 2
+    BlockIDList: 4, 5
+    Prob: 100
+  - BlockGroupID: 3
+    BlockIDList: 8, 9
+    Prob: 100
+  - BlockGroupID: 4
+    BlockIDList: 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23
+    Prob: 2000
+  - BlockGroupID: 5
+    BlockIDList: 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36
+    Prob: 1000
+  - BlockGroupID: 6
+    BlockIDList: 6, 7, 14, 15, 37, 38
+    Prob: 3000
+  - BlockGroupID: 7
+    BlockIDList: 32, 39, 40, 41
+    Prob: 4000
+  RefBlankValue:
+  - BlockGroupID: 1
+    BlankMin: 1
+    BlankMax: 16
+    Value: 0
+  - BlockGroupID: 2
+    BlankMin: 1
+    BlankMax: 16
+    Value: 10000
+  - BlockGroupID: 3
+    BlankMin: 1
+    BlankMax: 16
+    Value: 10000
+  - BlockGroupID: 4
+    BlankMin: 1
+    BlankMax: 16
+    Value: 8000
+  - BlockGroupID: 5
+    BlankMin: 1
+    BlankMax: 16
+    Value: 20000
+  - BlockGroupID: 6
+    BlankMin: 1
+    BlankMax: 16
+    Value: 10000
+  - BlockGroupID: 7
+    BlankMin: 1
+    BlankMax: 16
+    Value: 10000
+  - BlockGroupID: 1
+    BlankMin: 17
+    BlankMax: 32
+    Value: 0
+  - BlockGroupID: 2
+    BlankMin: 17
+    BlankMax: 32
+    Value: 20000
+  - BlockGroupID: 3
+    BlankMin: 17
+    BlankMax: 32
+    Value: 20000
+  - BlockGroupID: 4
+    BlankMin: 17
+    BlankMax: 32
+    Value: 10000
+  - BlockGroupID: 5
+    BlankMin: 17
+    BlankMax: 32
+    Value: 20000
+  - BlockGroupID: 6
+    BlankMin: 17
+    BlankMax: 32
+    Value: 10000
+  - BlockGroupID: 7
+    BlankMin: 17
+    BlankMax: 32
+    Value: 10000
+  - BlockGroupID: 1
+    BlankMin: 33
+    BlankMax: 48
+    Value: 200000
+  - BlockGroupID: 2
+    BlankMin: 33
+    BlankMax: 48
+    Value: 10000
+  - BlockGroupID: 3
+    BlankMin: 33
+    BlankMax: 48
+    Value: 10000
+  - BlockGroupID: 4
+    BlankMin: 33
+    BlankMax: 48
+    Value: 30000
+  - BlockGroupID: 5
+    BlankMin: 33
+    BlankMax: 48
+    Value: 20000
+  - BlockGroupID: 6
+    BlankMin: 33
+    BlankMax: 48
+    Value: 30000
+  - BlockGroupID: 7
+    BlankMin: 33
+    BlankMax: 48
+    Value: 30000
+  - BlockGroupID: 1
+    BlankMin: 49
+    BlankMax: 64
+    Value: 100000
+  - BlockGroupID: 2
+    BlankMin: 49
+    BlankMax: 64
+    Value: 0
+  - BlockGroupID: 3
+    BlankMin: 49
+    BlankMax: 64
+    Value: 0
+  - BlockGroupID: 4
+    BlankMin: 49
+    BlankMax: 64
+    Value: 7000
+  - BlockGroupID: 5
+    BlankMin: 49
+    BlankMax: 64
+    Value: 7000
+  - BlockGroupID: 6
+    BlankMin: 49
+    BlankMax: 64
+    Value: 20000
+  - BlockGroupID: 7
+    BlankMin: 49
+    BlankMax: 64
+    Value: 30000
+  RefBlockSpawnRate:
+  - TurnMin: 1
+    TurnMax: 7
+    SpawnType1Prob: 8000
+  - TurnMin: 8
+    TurnMax: 13
+    SpawnType1Prob: 6000
+  - TurnMin: 14
+    TurnMax: 18
+    SpawnType1Prob: 4000
+  - TurnMin: 19
+    TurnMax: -1
+    SpawnType1Prob: 2000
+  RefCommonconfig:
+  - KeyName: RBBlockSpawnRate
+    Value: 7000
+  - KeyName: BonusEffectMultiplier
+    Value: 2
+  - KeyName: BonusTimeDuration
+    Value: 12
+  - KeyName: AddBonusTimeSec
+    Value: 1
+  - KeyName: ShowAdPlayCnt
+    Value: 3
+  - KeyName: LimitReviveCnt
+    Value: 1

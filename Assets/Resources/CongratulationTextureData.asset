@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577bc01f3e2f74e30a305330df1fd607, type: 3}
+  m_Name: CongratulationTextureData
+  m_EditorClassIdentifier: 
+  congratulationTexture:
+  - texture: {fileID: 21300000, guid: 9c4edc3ea7500034abbc701ab8a0914c, type: 3}
+    congratulationType: 1
+  - texture: {fileID: 21300000, guid: 2d0833d0fb4cb404a905f824d9f0c52b, type: 3}
+    congratulationType: 2
+  - texture: {fileID: 21300000, guid: 304b22cfd402fd94d89b197d54c84e06, type: 3}
+    congratulationType: 3
+  - texture: {fileID: 21300000, guid: 022786121b6c32141ac5dd3212820a54, type: 3}
+    congratulationType: 4
