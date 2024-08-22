@@ -84,6 +84,7 @@ SpriteAtlas:
     - 1f595f1cb0f8c0c4f83b86c05351cde9: 21300000
     - c6ea39fc574a7184e82b60885e268548: 21300000
     - 0ba95b6dc1ab2ec439403a86e06e9ab4: 21300000
+    - 150b0f8d686f541ccb93729580918689: 21300000
     - 001cdfbd5e921394dad99b8ea23dbfc7: 21300000
     - 581657edb77395c43aeb2f9585101770: 21300000
     - 9c4edc3ea7500034abbc701ab8a0914c: 21300000
@@ -130,6 +131,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 1f595f1cb0f8c0c4f83b86c05351cde9, type: 3}
   - {fileID: 21300000, guid: c6ea39fc574a7184e82b60885e268548, type: 3}
   - {fileID: 21300000, guid: 0ba95b6dc1ab2ec439403a86e06e9ab4, type: 3}
+  - {fileID: 21300000, guid: 150b0f8d686f541ccb93729580918689, type: 3}
   - {fileID: 21300000, guid: 001cdfbd5e921394dad99b8ea23dbfc7, type: 3}
   - {fileID: 21300000, guid: 581657edb77395c43aeb2f9585101770, type: 3}
   - {fileID: 21300000, guid: 9c4edc3ea7500034abbc701ab8a0914c, type: 3}
@@ -175,6 +177,7 @@ SpriteAtlas:
   - Square
   - EffectLight
   - BlockBackground
+  - IconLoading
   - Btn_Restart2
   - Block_Star
   - Text_GoodJob
