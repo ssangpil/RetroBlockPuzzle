@@ -1,0 +1,7 @@
+obj
+*.suo
+*.csproj
+*.sln
+Logs
+Library
+UserSettings
